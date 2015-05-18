@@ -1,3 +1,5 @@
+APP_CONFIG['url_api'] = "http://localhost:9292"
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
