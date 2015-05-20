@@ -1,7 +1,16 @@
 source 'https://rubygems.org'
 
+gem 'swagencies', path: 'engines/swagencies'
+
+#Autenticacao
+
+gem 'request'
+
+gem 'faraday'
 
 gem 'devise'
+
+#gem 'her'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'

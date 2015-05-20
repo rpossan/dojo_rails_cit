@@ -1,16 +1,16 @@
-<h1>Listing Statuses</h1>
+<h1>Listing Agencias</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Status</th>
+      <th>Agencias</th>
     </tr>
   </thead>
 
   <tbody>
-    <% @status["statuses"].each do |st| %>
+    <% @agencias.each do |ag| %>
       <tr>
-        <td><%= st %></td>
+        <td><%= ag[:razaoSocial] %></td>
       </tr>
     <% end %>
   </tbody>

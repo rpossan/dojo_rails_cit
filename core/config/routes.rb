@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   resources :cars
 
   get 'welcome/index'
-  resources :status
+  #resources :status
+
+  get 'status' => 'status#index'
 
   devise_for :users
 

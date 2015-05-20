@@ -150,6 +150,8 @@ class Proxy
       end
     elsif (res.code == '403')
       raise "Forbidden :("
+    elsif (res.code == '404')
+      raise "Not found :("
     elsif (res.code == '500')
       raise "The API returned a 500 error :("
     elsif (res.code == '502')
